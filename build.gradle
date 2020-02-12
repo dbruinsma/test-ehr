@@ -18,9 +18,7 @@ version 'unspecified'
 
 sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
+
 apply plugin: 'maven'
 apply plugin: 'war'
 apply from: 'https://raw.github.com/gretty-gradle-plugin/gretty/master/pluginScripts/gretty.plugin'
